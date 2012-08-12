@@ -1,0 +1,11 @@
+public int realRandom(int min, int max) {
+	byte[] number = new byte[32];
+	RandomNumberGenerator rng = RandomNumberGenerator.Create();
+	rng.GetBytes(number);
+
+	int randomNumber = BitConverter.ToInt32(number, 0);
+	Random random = new Random(randomNumber);
+	randomNumber = random.Next(min, max +1);
+return randomNumber;
+}
+
