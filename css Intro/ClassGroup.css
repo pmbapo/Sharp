@@ -1,0 +1,37 @@
+.Group1 {
+color: Green;
+
+}
+
+.Group2 {
+color: Yellow;
+background: black;
+position:relative;
+float:right;
+}
+
+.Group3  {
+
+color: Green; 
+position: absolute;
+left:160px; 
+right:auto; 
+top: 400px;
+padding:0 0 0 0;
+}
+
+.Group4 {
+color: Yellow; 
+background: black;
+border: 1px solid #eeeeee;
+float:left;
+}
+
+
+
+
+
+
+
+
+	
